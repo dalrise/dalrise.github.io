@@ -3,8 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "488b7d8aed0fb3290fc750f0b869df79",
+  "assets/AssetManifest.json": "95026bdda01721bd2c955f6006f63fbb",
 "assets/assets/images/eng_icon.png": "6d47cd5c35f68096ff5c2261849d0a88",
+"assets/assets/images/logo.jpg": "319327ecc226ef304c95f508868e5870",
+"assets/assets/images/logo2.png": "640845fd04f00b53803ad995df02bd70",
 "assets/assets/images/math_icon.jpg": "f8e47bf3e02ec8af5466640c5c4d0967",
 "assets/assets/lottie/95074-hamburger-loading.json": "cc5f27206b9d7b56456da40c7ea53b98",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
@@ -23,9 +25,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "30822fe30d24b91ed2a3e21da67f679a",
-"/": "30822fe30d24b91ed2a3e21da67f679a",
-"main.dart.js": "8a2661988061cc0124f700668555280f",
+"index.html": "3f3205ea0fb78ce1d10fd0ccd5502306",
+"/": "3f3205ea0fb78ce1d10fd0ccd5502306",
+"main.dart.js": "19542534d6a3636097554f9c15d954d1",
 "manifest.json": "8420790650bba1363a9dc15ac39832b5",
 "splash/style.css": "fb03880b3b36c32c4165cafeca5fca0e",
 "version.json": "366efa6fbfceea6939fa9bb5e9a89af5"
