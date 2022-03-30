@@ -23,23 +23,47 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="laudyou_app2">
+  <meta name="apple-mobile-web-app-title" content="laudyou_app">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>laudyou_app2</title>
+  <title>laudyou_app</title>
   <link rel="manifest" href="manifest.json">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
-  <link rel="stylesheet" type="text/css" href="splash/style.css">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
   <script>
-    var serviceWorkerVersion = '628431105';
+    // Import the functions you need from the SDKs you need
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDRnPptk3JFc9pEqSLE4Xgh_NHehS6Juu4",
+      authDomain: "halftime-push-service.firebaseapp.com",
+      databaseURL: "https://halftime-push-service.firebaseio.com",
+      projectId: "halftime-push-service",
+      storageBucket: "halftime-push-service.appspot.com",
+      messagingSenderId: "115119258346",
+      appId: "1:115119258346:web:6d14855220f71457c2f593",
+      measurementId: "G-QRP79V7G19"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script>
+    var serviceWorkerVersion = '1790424449';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
