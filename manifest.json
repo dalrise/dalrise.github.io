@@ -1,6 +1,6 @@
 {
-    "name": "laudyou_app",
-    "short_name": "laudyou_app",
+    "name": "laudyou_app2",
+    "short_name": "laudyou_app2",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
